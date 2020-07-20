@@ -22,7 +22,7 @@ $rect = new Rectangle(3,4);
 echo 'Surface : ' . $rect->surface() . '<br>';
 echo 'Perimetre : ' . $rect->perimetre() . '<br>';
 
-echo 'Figure Cercle<br>';
+echo '<br>Figure Cercle<br>';
 
 $c = new Cercle(5);
 
