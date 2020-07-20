@@ -20,6 +20,7 @@ use Devoir_oop_php_guy_fleury\Figure\Constant;
 
 echo '<br> Static variable<br>';
 echo Constant::$PI . '<br>';
+echo Constant::getPI() . '<br>';
 
 echo '<br>Figure Rectangle<br>';
 $rect = new Rectangle(3,4);
