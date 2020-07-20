@@ -17,5 +17,5 @@ class Rectangle extends Figure{
     }
     
 }
-+
-+?>
+
+?>
