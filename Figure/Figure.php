@@ -1,5 +1,5 @@
 <?php
-namespace Devoir_oop_php_guy_fleury\Figure as OOP_GEO;
+namespace Devoir_oop_php_guy_fleury\Figure;
 
 abstract class Figure {
 
