@@ -10,13 +10,18 @@ include 'Figure/Figure.php';
 include 'Figure/Rectangle.php';
 include 'Figure/Cercle.php';
 include 'Figure/Triangle.php';
+include 'Figure/Constant.php';
 
 use Devoir_oop_php_guy_fleury\Figure\Figure;
 use Devoir_oop_php_guy_fleury\Figure\Rectangle;
 use Devoir_oop_php_guy_fleury\Figure\Cercle;
 use Devoir_oop_php_guy_fleury\Figure\Triangle;
+use Devoir_oop_php_guy_fleury\Figure\Constant;
 
-echo 'Figure Rectangle<br>';
+echo '<br> Static variable<br>';
+echo Constant::$PI . '<br>';
+
+echo '<br>Figure Rectangle<br>';
 $rect = new Rectangle(3,4);
 
 echo 'Surface : ' . $rect->surface() . '<br>';
