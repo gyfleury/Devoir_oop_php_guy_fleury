@@ -17,7 +17,7 @@ use Devoir_oop_php_guy_fleury\Figure\Cercle;
 use Devoir_oop_php_guy_fleury\Figure\Triangle;
 
 echo 'Figure Rectangle<br>';
-rect = new Rectangle(3,4);
+$rect = new Rectangle(3,4);
 
 echo 'Surface : ' . $rect->surface() . '<br>';
 echo 'Perimetre : ' . $rect->perimetre() . '<br>';
@@ -33,7 +33,7 @@ echo '<br> Figure Tringle <br>';
 $t = new Triangle(3,4,5);
 
 echo 'Surface :' . $t->surface() . '<br>';
-cho 'Perimetre :' . $t->perimetre() . '<br>'; 
+echo 'Perimetre :' . $t->perimetre() . '<br>'; 
 
 ?>
 
